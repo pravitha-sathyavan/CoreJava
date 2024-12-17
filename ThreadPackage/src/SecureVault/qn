@@ -1,0 +1,6 @@
+Let's say I want to design a secure vault where I'm planning to store my money,
+and I want to see how long it will take the hackers to break into the vault by getting my code.
+So we'll have a few hacker threads trying to brute force my code concurrently.
+In addition to that, we're going to have a police thread.
+That thread is going to come to our rescue by counting down 10 seconds, and if the hackers haven't broken into the vault by then and ran away with the money,
+the policeman is going to arrest them. While counting down, the police thread is going to show us the progress of its arrival to the screen.
